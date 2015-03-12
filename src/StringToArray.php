@@ -8,7 +8,6 @@
 
 namespace Tdd;
 
-
 class StringToArray
 {
     private $processedString;
@@ -24,6 +23,11 @@ class StringToArray
     }
 
     public function get()
+    {
+
+    }
+
+    public function addProcessor(Processor $processor)
     {
 
     }

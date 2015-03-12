@@ -49,11 +49,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringToArrayTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringToArrayTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/StringToArrayTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.796748" vertical-offset="546" max-vertical-offset="990">
-              <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+            <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="1005">
+              <caret line="22" column="82" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OneLineProcessorTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/OneLineProcessorTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.20325203" vertical-offset="0" max-vertical-offset="369">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OneLineProcessor.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/OneLineProcessor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="360">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProcessorAbstract.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProcessorAbstract.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="240">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -72,8 +102,8 @@
       <file leaf-file-name="StringToArray.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StringToArray.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="450">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <state vertical-scroll-proportion="-12.875" vertical-offset="51" max-vertical-offset="510">
+              <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -86,8 +116,13 @@
       <list>
         <option value="$PROJECT_DIR$/test/PreTest.php" />
         <option value="$PROJECT_DIR$/TODO.txt" />
-        <option value="$PROJECT_DIR$/src/StringToArray.php" />
         <option value="$PROJECT_DIR$/test/StringToArrayTest.php" />
+        <option value="$PROJECT_DIR$/src/StringToArray.php" />
+        <option value="$PROJECT_DIR$/src/ProcessorAbstract.php" />
+        <option value="$PROJECT_DIR$/test/Test.php" />
+        <option value="$PROJECT_DIR$/test/OneLineProcessor.php" />
+        <option value="$PROJECT_DIR$/src/OneLineProcessor.php" />
+        <option value="$PROJECT_DIR$/test/OneLineProcessorTest.php" />
       </list>
     </option>
   </component>
@@ -334,16 +369,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StringToArray.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state vertical-scroll-proportion="-12.875" vertical-offset="51" max-vertical-offset="510">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProcessorAbstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="240">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/StringToArrayTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.796748" vertical-offset="546" max-vertical-offset="990">
-          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+        <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="1005">
+          <caret line="22" column="82" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OneLineProcessor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="360">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/OneLineProcessorTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20325203" vertical-offset="0" max-vertical-offset="369">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding />
         </state>
       </provider>

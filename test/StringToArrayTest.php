@@ -42,7 +42,8 @@ class StringToArrayTest extends \PHPUnit_Framework_TestCase
         return array(
             array("get"),
             array("setProcessedString"),
-            array("getProcessedString")
+            array("getProcessedString"),
+            array("addProcessor")
         );
     }
 
