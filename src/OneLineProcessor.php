@@ -14,7 +14,9 @@ class OneLineProcessor extends ProcessorAbstract
 
     function isMatch($string)
     {
-        return true;
+        if (strpos($string, "\n") === false) return true;
+
+        return false;
     }
 
     function process($string)

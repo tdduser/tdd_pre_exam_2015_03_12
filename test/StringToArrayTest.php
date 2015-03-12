@@ -7,6 +7,7 @@
  */
 
 namespace Tdd\Test;
+use Tdd\MultiLineProcessor;
 use Tdd\OneLineProcessor;
 use Tdd\StringToArray;
 
@@ -73,4 +74,19 @@ class StringToArrayTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals(1, count($this->stringToArray->getProcessors()));
     }
+
+    public function testGetWithOneLineString()
+    {
+        $oneLineProcessor   = new OneLineProcessor();
+        $multiLineProcessor = new MultiLineProcessor();
+
+        $this->stringToArray->addProcessor(1, $oneLineProcessor);
+        $this->stringToArray->addProcessor(2, $multiLineProcessor);
+
+        $this->stringToArray->setProcessedString('abc,def');
+
+        $this->assertEquals(array('abc', 'def'), $this->stringToArray->get());
+    }
+
+    
 }

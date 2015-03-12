@@ -25,7 +25,13 @@ class StringToArray
 
     public function get()
     {
-
+        foreach($this->processors as $processor)
+        {
+            if ($processor->isMatch($this->getProcessedString()))
+            {
+                return $processor->process($this->getProcessedString());
+            }
+        }
     }
 
     public function addProcessor($priority, ProcessorAbstract $processor)
