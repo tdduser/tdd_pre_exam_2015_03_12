@@ -7,6 +7,7 @@
  */
 
 namespace Tdd\Test;
+use Tdd\OneLineProcessor;
 use Tdd\StringToArray;
 
 class StringToArrayTest extends \PHPUnit_Framework_TestCase
@@ -62,5 +63,14 @@ class StringToArrayTest extends \PHPUnit_Framework_TestCase
             array("abc,dfdf,erewr"),
             array("ewrwrwe"),
         );
+    }
+
+    public function testCanAddProcessor()
+    {
+        $oneLineProcessor = new OneLineProcessor();
+
+        $this->stringToArray->addProcessor(1, $oneLineProcessor);
+
+        $this->assertEquals(1, count($this->stringToArray->getProcessors()));
     }
 }

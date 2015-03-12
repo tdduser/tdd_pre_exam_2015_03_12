@@ -11,6 +11,7 @@ namespace Tdd;
 class StringToArray
 {
     private $processedString;
+    private $processors;
 
     public function setProcessedString($processedString)
     {
@@ -27,8 +28,13 @@ class StringToArray
 
     }
 
-    public function addProcessor(Processor $processor)
+    public function addProcessor($priority, ProcessorAbstract $processor)
     {
+        $this->processors[$priority] = $processor;
+    }
 
+    public function getProcessors()
+    {
+        return $this->processors;
     }
 }
