@@ -28,9 +28,20 @@ class StringToArrayTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($this->stringToArray->getProcessedString(), 'a,b,c');
     }
 
-    public function testGetMethodIsExists()
+    /**
+     * @dataProvider methodsDataProvider
+     */
+    public function testMethodsExists($methodName)
     {
-        $this->assertTrue(method_exists($this->stringToArray, 'get'));
+        $this->assertTrue(method_exists($this->stringToArray, $methodName));
     }
+
+    public function methodsDataProvider()
+    {
+        return array(
+            array("get"),
+        );
+    }
+
 
 }
