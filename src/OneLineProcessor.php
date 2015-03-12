@@ -19,6 +19,6 @@ class OneLineProcessor extends ProcessorAbstract
 
     function process($string)
     {
-        // TODO: Implement process() method.
+        return explode(',', $string);
     }
 }

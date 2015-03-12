@@ -39,4 +39,11 @@ class OneLineProcessorTest extends \PHPUnit_Framework_TestCase
             array("abc,dfdf,erewr"),
         );
     }
+
+    public function testProcess()
+    {
+        $processedArray = $this->oneLineProcessor->process('abc,def');
+
+        $this->assertEquals(array('abc', 'def'), $processedArray);
+    }
 }
