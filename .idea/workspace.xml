@@ -49,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringToArrayTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringToArrayTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/StringToArrayTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4878049" vertical-offset="0" max-vertical-offset="369">
-              <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+            <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="420">
+              <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -69,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringToArray.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StringToArray.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/StringToArray.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="225">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6910569" vertical-offset="0" max-vertical-offset="375">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -86,8 +86,8 @@
       <list>
         <option value="$PROJECT_DIR$/test/PreTest.php" />
         <option value="$PROJECT_DIR$/TODO.txt" />
-        <option value="$PROJECT_DIR$/src/StringToArray.php" />
         <option value="$PROJECT_DIR$/test/StringToArrayTest.php" />
+        <option value="$PROJECT_DIR$/src/StringToArray.php" />
       </list>
     </option>
   </component>
@@ -332,18 +332,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StringToArray.php">
+    <entry file="file://$PROJECT_DIR$/test/StringToArrayTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="225">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="420">
+          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/StringToArrayTest.php">
+    <entry file="file://$PROJECT_DIR$/src/StringToArray.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4878049" vertical-offset="0" max-vertical-offset="369">
-          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.6910569" vertical-offset="0" max-vertical-offset="375">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding />
         </state>
       </provider>

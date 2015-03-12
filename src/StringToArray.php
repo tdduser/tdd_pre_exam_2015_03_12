@@ -11,5 +11,15 @@ namespace Tdd;
 
 class StringToArray
 {
+    private $processedString;
 
+    public function __construct($processedString)
+    {
+        $this->processedString = $processedString;
+    }
+
+    public function getProcessedString()
+    {
+        return $this->processedString;
+    }
 }

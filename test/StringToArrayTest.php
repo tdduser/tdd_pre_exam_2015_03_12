@@ -17,4 +17,11 @@ class StringToArrayTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals(get_class($stringToArray), 'Tdd\StringToArray');
     }
+
+    public function testWorkWithRightString()
+    {
+        $stringToArray = new StringToArray("a,b,c");
+
+        $this->assertEquals($stringToArray->getProcessedString(), 'a,b,c');
+    }
 }
