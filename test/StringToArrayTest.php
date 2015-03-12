@@ -46,5 +46,20 @@ class StringToArrayTest extends \PHPUnit_Framework_TestCase
         );
     }
 
+    /**
+     * @dataProvider processedStringsDataProvider
+     */
+    public function testProcessedStringIsString($processedString)
+    {
+        $this->stringToArray->setProcessedString($processedString);
+        $this->assertTrue(is_string($this->stringToArray->getProcessedString()));
+    }
 
+    public function processedStringsDataProvider()
+    {
+        return array(
+            array("abc,dfdf,erewr"),
+            array("ewrwrwe"),
+        );
+    }
 }
