@@ -15,7 +15,7 @@ class StringToArrayTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->stringToArray = new StringToArray("a,b,c");
+        $this->stringToArray = new StringToArray();
     }
 
     public function testStringToArrayExists()
@@ -25,6 +25,7 @@ class StringToArrayTest extends \PHPUnit_Framework_TestCase
 
     public function testWorkWithRightString()
     {
+        $this->stringToArray->setProcessedString('a,b,c');
         $this->assertEquals($this->stringToArray->getProcessedString(), 'a,b,c');
     }
 
@@ -40,6 +41,8 @@ class StringToArrayTest extends \PHPUnit_Framework_TestCase
     {
         return array(
             array("get"),
+            array("setProcessedString"),
+            array("getProcessedString")
         );
     }
 

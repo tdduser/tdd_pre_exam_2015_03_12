@@ -13,7 +13,7 @@ class StringToArray
 {
     private $processedString;
 
-    public function __construct($processedString)
+    public function setProcessedString($processedString)
     {
         $this->processedString = $processedString;
     }
