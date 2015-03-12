@@ -13,10 +13,30 @@ use Tdd\OneLineProcessor;
 
 class OneLineProcessorTest extends \PHPUnit_Framework_TestCase
 {
+    public $oneLineProcessor;
+
+    public function setUp()
+    {
+        $this->oneLineProcessor = new OneLineProcessor();
+    }
+
     public function testExists()
     {
-        $oneLine = new OneLineProcessor();
+        $this->assertEquals(get_class($this->oneLineProcessor), 'Tdd\OneLineProcessor');
+    }
 
-        $this->assertEquals(get_class($oneLine), 'Tdd\OneLineProcessor');
+    /**
+     * @dataProvider matchStingsDataProvider
+     */
+    public function testIsMatch($string)
+    {
+        $this->assertTrue($this->oneLineProcessor->isMatch($string));
+    }
+
+    public function matchStingsDataProvider()
+    {
+        return array(
+            array("abc,dfdf,erewr"),
+        );
     }
 }

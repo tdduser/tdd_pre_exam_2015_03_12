@@ -11,6 +11,6 @@ namespace Tdd;
 
 abstract class ProcessorAbstract
 {
-    abstract function isMatch();
-    abstract function process();
+    abstract function isMatch($string);
+    abstract function process($string);
 }

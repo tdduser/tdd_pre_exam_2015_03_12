@@ -12,12 +12,12 @@ namespace Tdd;
 class OneLineProcessor extends ProcessorAbstract
 {
 
-    function isMatch()
+    function isMatch($string)
     {
-        // TODO: Implement isMatch() method.
+        return true;
     }
 
-    function process()
+    function process($string)
     {
         // TODO: Implement process() method.
     }
