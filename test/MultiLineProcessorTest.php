@@ -29,4 +29,22 @@ class MultiLineProcessorTest extends \PHPUnit_Framework_TestCase
             array("abc,dfdf,erewr\nfdfd,hjhjhj"),
         );
     }
+
+    public function testProcess()
+    {
+        $multiLine = new MultiLineProcessor();
+
+        $processedArray = $multiLine->process("abc,def\nttt,ggg");
+
+        $this->assertEquals(
+            array(
+                array('abc,def', 'ttt,ggg'),
+                array(
+                    array('abc', 'def'),
+                    array('ttt', 'ggg')
+                )
+            ),
+            $processedArray
+        );
+    }
 }

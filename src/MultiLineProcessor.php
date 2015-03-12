@@ -21,6 +21,21 @@ class MultiLineProcessor extends ProcessorAbstract
 
     function process($string)
     {
-        // TODO: Implement process() method.
+        $result = array();
+
+        $multiLines = explode("\n", $string);
+
+        $result[] = $multiLines;
+
+        $values = array();
+
+        foreach ($multiLines as $multiLine)
+        {
+            $values[] = explode(',', $multiLine);
+        }
+
+        $result[] = $values;
+
+        return $result;
     }
 }
