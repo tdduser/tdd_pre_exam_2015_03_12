@@ -1,0 +1,2 @@
+1. create a method who need one string parameter, and return an array (exploded string by comma)
+2. expand the method to work with multi line string (by \n) and return a 2 dimensional array(lines, values)
