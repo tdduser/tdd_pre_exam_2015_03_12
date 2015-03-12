@@ -11,17 +11,22 @@ use Tdd\StringToArray;
 
 class StringToArrayTest extends \PHPUnit_Framework_TestCase
 {
+    public $stringToArray;
+
+    public function setUp()
+    {
+        $this->stringToArray = new StringToArray("a,b,c");
+    }
+
     public function testStringToArrayExists()
     {
-        $stringToArray = new StringToArray("a,b,c");
-
-        $this->assertEquals(get_class($stringToArray), 'Tdd\StringToArray');
+        $this->assertEquals(get_class($this->$stringToArray), 'Tdd\StringToArray');
     }
 
     public function testWorkWithRightString()
     {
-        $stringToArray = new StringToArray("a,b,c");
-
-        $this->assertEquals($stringToArray->getProcessedString(), 'a,b,c');
+        $this->assertEquals($this->stringToArray->getProcessedString(), 'a,b,c');
     }
+
+
 }
