@@ -52,8 +52,8 @@
       <file leaf-file-name="StringToArrayTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/StringToArrayTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67479676" vertical-offset="1026" max-vertical-offset="1395">
-              <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.83739835" vertical-offset="1221" max-vertical-offset="1650">
+              <caret line="107" column="5" selection-start-line="90" selection-start-column="4" selection-end-line="107" selection-end-column="5" />
               <folding>
                 <element signature="e#113#140#0#PHP" expanded="true" />
               </folding>
@@ -442,8 +442,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/StringToArrayTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67479676" vertical-offset="1026" max-vertical-offset="1395">
-          <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.83739835" vertical-offset="1221" max-vertical-offset="1650">
+          <caret line="107" column="5" selection-start-line="90" selection-start-column="4" selection-end-line="107" selection-end-column="5" />
           <folding>
             <element signature="e#113#140#0#PHP" expanded="true" />
           </folding>

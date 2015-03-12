@@ -88,5 +88,22 @@ class StringToArrayTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(array('abc', 'def'), $this->stringToArray->get());
     }
 
-    
+    public function testGetWithTwoLineString()
+    {
+        $oneLineProcessor   = new OneLineProcessor();
+        $multiLineProcessor = new MultiLineProcessor();
+
+        $this->stringToArray->addProcessor(1, $oneLineProcessor);
+        $this->stringToArray->addProcessor(2, $multiLineProcessor);
+
+        $this->stringToArray->setProcessedString("abc,def\nttt,ggg");
+
+        $this->assertEquals(array(
+            array('abc,def', 'ttt,ggg'),
+            array(
+                array('abc', 'def'),
+                array('ttt', 'ggg')
+            )
+        ), $this->stringToArray->get());
+    }
 }
