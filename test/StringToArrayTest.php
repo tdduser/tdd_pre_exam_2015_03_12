@@ -20,7 +20,7 @@ class StringToArrayTest extends \PHPUnit_Framework_TestCase
 
     public function testStringToArrayExists()
     {
-        $this->assertEquals(get_class($this->$stringToArray), 'Tdd\StringToArray');
+        $this->assertEquals(get_class($this->stringToArray), 'Tdd\StringToArray');
     }
 
     public function testWorkWithRightString()
@@ -28,5 +28,9 @@ class StringToArrayTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($this->stringToArray->getProcessedString(), 'a,b,c');
     }
 
+    public function testGetMethodIsExists()
+    {
+        $this->assertTrue(method_exists($this->stringToArray, 'get'));
+    }
 
 }

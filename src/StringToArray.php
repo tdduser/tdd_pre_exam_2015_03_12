@@ -22,4 +22,9 @@ class StringToArray
     {
         return $this->processedString;
     }
+
+    public function get()
+    {
+
+    }
 }
