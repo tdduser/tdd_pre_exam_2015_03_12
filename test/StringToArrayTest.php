@@ -7,7 +7,7 @@
  */
 
 namespace Tdd\Test;
-
+use Tdd\StringToArray;
 
 class StringToArrayTest extends \PHPUnit_Framework_TestCase
 {
@@ -15,6 +15,6 @@ class StringToArrayTest extends \PHPUnit_Framework_TestCase
     {
         $stringToArray = new StringToArray("a,b,c");
 
-        $this->assertEquals(get_class($stringToArray), 'StringToArray');
+        $this->assertEquals(get_class($stringToArray), 'Tdd\StringToArray');
     }
 }
